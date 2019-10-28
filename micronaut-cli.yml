@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micro.web
+---
+testFramework: junit
+sourceLanguage: java

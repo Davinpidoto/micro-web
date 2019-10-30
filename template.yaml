@@ -1,0 +1,9 @@
+Resources:
+  WebApp:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: ami-0b69ea66ff7391e80
+      InstanceType: t2.micro
+      Tags:
+        - Key: "Name"
+          Value: "MicroWeb"
